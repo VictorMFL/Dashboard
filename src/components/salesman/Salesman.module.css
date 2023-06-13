@@ -1,0 +1,86 @@
+.container {
+  padding: 12px;
+  background: #1a1c22;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container > div > img {
+  cursor: pointer;
+}
+
+.salesman {
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.salesman > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.person_data {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.container_titles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.names {
+  text-align: center;
+}
+
+.title {
+  color: #9E9E9E;
+  margin-bottom: 10px;
+}
+
+.name,
+.total {
+  color: #fff;
+}
+
+.percentage_1 {
+  color: #598D66;
+}
+
+.percentage_2 {
+  color: #FBC398;
+}
+
+.percentage_3 {
+  color: #FBC398;
+}
+
+.percentage_4 {
+  color: #DF5B3C;
+}

@@ -1,0 +1,20 @@
+.container {
+  grid-column: span 2;
+  background: #1A1C22;
+  border-radius: 20px;
+  padding: 12px 1rem;
+  margin-top: 20px;
+}
+
+.container > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+}

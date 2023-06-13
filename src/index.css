@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Poppins', 'Arial';
+  overflow-x: hidden;
 }
 
 .container {
@@ -16,4 +17,19 @@ body {
 
 main {
   padding: 20px;
+}
+
+main > section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+}
+
+/* config do GraphicDay */
+.apexcharts-active {
+  background-color: #1A1C22;
+}
+
+.apexcharts-tooltip-title {
+  background-color: #1A1C22 !important;
 }

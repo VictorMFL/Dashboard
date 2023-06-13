@@ -1,0 +1,29 @@
+.nav {
+  padding: 55px 30px;
+  background-color: #1a1c22;
+  width: 240px;
+  min-height: calc(100vh - 95px);
+}
+
+.nav > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 52px;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.active {
+  color: #ff7100;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.p {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}

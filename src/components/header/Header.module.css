@@ -1,4 +1,5 @@
 .header {
+  height: 95px;
   display: grid;
   grid-template-columns: auto auto 1fr auto auto auto;
   place-items: center;

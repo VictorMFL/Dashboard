@@ -1,10 +1,14 @@
 import Header from "./components/header/Header";
+import NavBar from "./components/navBar/NavBar";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className="container">
+        <NavBar />
+      </div>
+    </>
   );
 };
 

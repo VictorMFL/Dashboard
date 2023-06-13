@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container > div {
+  height: 90px;
+  width: 190px;
+  background: #1a1c22;
+  border-radius: 20px;
+  padding: 6px 14px 6px 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_icon {
+  height: 54px;
+  width: 54px;
+  background: #282c35;
+  border-radius: 11.4488px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 23px;
+}
+
+.title {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.price {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.achievement {
+  flex-direction: column;
+  align-items: baseline !important;
+  width: 250px !important;
+}
+
+.achievement > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.percentage {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.p {
+  color: #9E9E9E;
+}
+
+.achievement span {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.bar {
+  height: 1rem;
+  background: #282C35;
+}
+
+.bar > div {
+  width: 61%;
+  height: 100%;
+  background: #FF7100;
+}

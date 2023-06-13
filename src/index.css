@@ -7,3 +7,13 @@
 body {
   font-family: 'Poppins', 'Arial';
 }
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #282c35;
+}
+
+main {
+  padding: 20px;
+}

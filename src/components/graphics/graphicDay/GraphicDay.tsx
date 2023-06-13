@@ -26,7 +26,7 @@ const GraphicDay = () => {
       </div>
       <Chart
         type="area"
-        width={700}
+        width={630}
         height={300}
         series={data}
         options={options}

@@ -56,6 +56,9 @@ const Salesman = () => {
             <p className={styles.percentage_3}>52%</p>
             <p className={styles.percentage_4}>33%</p>
           </div>
+          <span className={styles.contraste_1}></span>
+          <span className={styles.contraste_2}></span>
+          <span className={styles.contraste_3}></span>
         </div>
       </div>
     </section>

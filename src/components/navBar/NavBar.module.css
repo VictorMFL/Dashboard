@@ -5,10 +5,15 @@
   min-height: calc(100vh - 95px);
 }
 
-.nav > div {
+.nav div {
   display: grid;
   grid-template-columns: auto 1fr;
   margin-bottom: 52px;
+}
+
+.nav > section {
+  position: sticky;
+  top: 20px;
 }
 
 .icon {

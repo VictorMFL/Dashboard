@@ -1,6 +1,7 @@
 import GraphicDay from "./components/graphics/graphicDay/GraphicDay";
 import GraphicProducts from "./components/graphics/grapichProducts/GraphicProducts";
 import GraphicAchievement from "./components/graphics/graphicAchievement/GraphicAchievement";
+import GraphicStores from "./components/graphics/graphicStores/GraphicStores";
 import Header from "./components/header/Header";
 import NavBar from "./components/navBar/NavBar";
 import Salesman from "./components/salesman/Salesman";
@@ -19,6 +20,7 @@ const App = () => {
             <Salesman />
             <GraphicProducts />
             <GraphicAchievement />
+            <GraphicStores />
           </section>
         </main>
       </div>

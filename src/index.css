@@ -25,11 +25,9 @@ main > section {
   grid-template-rows: auto auto;
 }
 
-/* config do GraphicDay */
-.apexcharts-active {
-  background-color: #1A1C22;
-}
-
-.apexcharts-tooltip-title {
+/* config dos Gráficos */
+.apexcharts-active,
+.apexcharts-tooltip-title,
+.apexcharts-menu-item  {
   background-color: #1A1C22 !important;
 }

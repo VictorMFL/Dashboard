@@ -1,0 +1,22 @@
+.container {
+  grid-column: span 3;
+  background: #1a1c22;
+  border-radius: 20px;
+  padding: 13px 25px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.container > h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container_graphic {
+  display: flex;
+}
+
+.names {
+  margin-top: 30px;
+  line-height: 3;
+}

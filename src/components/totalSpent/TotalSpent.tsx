@@ -5,7 +5,7 @@ const TotalSpent = () => {
     <section className={styles.container}>
       <div>
         <div className={styles.container_icon}>
-          <img src="/images/icon_pig.svg" alt="icone de um porquinho" />
+          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Sales Order</p>
@@ -14,7 +14,7 @@ const TotalSpent = () => {
       </div>
       <div>
       <div className={styles.container_icon}>
-          <img src="/images/icon_pig.svg" alt="icone de um porquinho" />
+          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Delivered</p>
@@ -23,7 +23,7 @@ const TotalSpent = () => {
       </div>
       <div>
       <div className={styles.container_icon}>
-          <img src="/images/icon_pig.svg" alt="icone de um porquinho" />
+          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Remaining</p>
@@ -32,7 +32,7 @@ const TotalSpent = () => {
       </div>
       <div>
       <div className={styles.container_icon}>
-          <img src="/images/icon_pig.svg" alt="icone de um porquinho" />
+          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Last Month</p>

@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="/images/logo.svg" alt="Logo da Onion Sales" className={styles.logo} />
+      <img src="../../public/images/logo.svg" alt="Logo da Onion Sales" className={styles.logo} />
       <div>
         <p className={styles.welcome}>Welcome</p>
         <p className={styles.name}>Alex Homes</p>
@@ -11,7 +11,7 @@ const Header = () => {
 
       <div className={styles.container_input}>
         <input type="text" className={styles.input} />
-        <img src="/images/icon-search.svg" alt="icone de pesquisa" className={styles.icon_search} />
+        <img src="../../public/images/icon-search.svg" alt="icone de pesquisa" className={styles.icon_search} />
       </div>
 
       <div>
@@ -36,9 +36,9 @@ const Header = () => {
         </select>
       </div>
       <div className={styles.container_images}>
-        <img src="/images/bmc-logo.svg" alt="logo bmc" />
+        <img src="../../public/images/bmc-logo.svg" alt="logo bmc" />
         <img
-          src="/images/cat.svg"
+          src="../../public/images/cat.svg"
           alt="Imagem de um gato com um óculos de realidade virtual"
         />
       </div>

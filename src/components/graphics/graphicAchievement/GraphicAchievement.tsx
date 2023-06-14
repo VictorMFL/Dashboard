@@ -9,7 +9,7 @@ const GraphicAchievement = () => {
       </div>
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="/images/icon_rice.svg" alt="Icone de uma bacia de arroz" />
+          <img src="../../public/images/icon_rice.svg" alt="Icone de uma bacia de arroz" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -26,7 +26,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="/images/icon_carrot.svg" alt="Icone de uma cenoura" />
+          <img src="../../public/images/icon_carrot.svg" alt="Icone de uma cenoura" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -43,7 +43,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="/images/icon_cookie.svg" alt="Icone de um biscoito" />
+          <img src="../../public/images/icon_cookie.svg" alt="Icone de um biscoito" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -60,7 +60,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="/images/icon_champagne.svg" alt="Icone de uma Taça de vinho" />
+          <img src="../../public/images/icon_champagne.svg" alt="Icone de uma Taça de vinho" />
         </div>
         <div>
           <div className={styles.container_name}>

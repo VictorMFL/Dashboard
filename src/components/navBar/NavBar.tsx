@@ -6,7 +6,7 @@ const NavBar = () => {
       <section>
         <div>
           <img
-            src="/images/icon_dashboard.svg"
+            src="../../public/images/icon_dashboard.svg"
             alt="icone de Dashboard"
             className={styles.icon}
           />
@@ -15,7 +15,7 @@ const NavBar = () => {
 
         <div>
           <img
-            src="/images/icon_product.svg"
+            src="../../public/images/icon_product.svg"
             alt="icone de Produtos"
             className={styles.icon}
           />
@@ -24,7 +24,7 @@ const NavBar = () => {
 
         <div>
           <img
-            src="/images/icon_store.svg"
+            src="../../public/images/icon_store.svg"
             alt="icone do Store"
             className={styles.icon}
           />
@@ -33,7 +33,7 @@ const NavBar = () => {
 
         <div>
           <img
-            src="/images/icon_salesman.svg"
+            src="../../public/images/icon_salesman.svg"
             alt="icone de uma Pessoa"
             className={styles.icon}
           />

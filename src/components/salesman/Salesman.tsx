@@ -5,23 +5,23 @@ const Salesman = () => {
     <section className={styles.container}>
       <div>
         <h1>Salesman Performance</h1>
-        <img src="/images/icon_rubber.svg" alt="icone de uma borracha" />
+        <img src="../../public/images/icon_rubber.svg" alt="icone de uma borracha" />
       </div>
       <div className={styles.salesman}>
         <div>
-          <img src="/images/alfonso.png" alt="imagem do Alfonso" />
+          <img src="../../public/images/alfonso.png" alt="imagem do Alfonso" />
           <p>Alfonso</p>
         </div>
         <div>
-          <img src="/images/calzoni.png" alt="imagem do Calzoni" />
+          <img src="../../public/images/calzoni.png" alt="imagem do Calzoni" />
           <p>Calzoni</p>
         </div>
         <div>
-          <img src="/images/luke.png" alt="imagem do Luke" />
+          <img src="../../public/images/luke.png" alt="imagem do Luke" />
           <p>Luke</p>
         </div>
         <div>
-          <img src="/images/tatiana.png" alt="imagem da Tatiana" />
+          <img src="../../public/images/tatiana.png" alt="imagem da Tatiana" />
           <p>Tatiana</p>
         </div>
       </div>

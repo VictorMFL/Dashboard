@@ -1,3 +1,5 @@
+import IconPig from "../../../public/images/icon_pig.svg";
+
 import styles from "./TotalSpent.module.css";
 
 const TotalSpent = () => {
@@ -5,7 +7,7 @@ const TotalSpent = () => {
     <section className={styles.container}>
       <div>
         <div className={styles.container_icon}>
-          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
+          <img src={IconPig} alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Sales Order</p>
@@ -13,8 +15,8 @@ const TotalSpent = () => {
         </div>
       </div>
       <div>
-      <div className={styles.container_icon}>
-          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
+        <div className={styles.container_icon}>
+          <img src={IconPig} alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Delivered</p>
@@ -22,8 +24,8 @@ const TotalSpent = () => {
         </div>
       </div>
       <div>
-      <div className={styles.container_icon}>
-          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
+        <div className={styles.container_icon}>
+          <img src={IconPig} alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Remaining</p>
@@ -31,8 +33,8 @@ const TotalSpent = () => {
         </div>
       </div>
       <div>
-      <div className={styles.container_icon}>
-          <img src="../../public/images/icon_pig.svg" alt="icone de um porquinho" />
+        <div className={styles.container_icon}>
+          <img src={IconPig} alt="icone de um porquinho" />
         </div>
         <div>
           <p className={styles.title}>Last Month</p>
@@ -44,11 +46,13 @@ const TotalSpent = () => {
         <p className={styles.title}>Achievement</p>
         <div>
           <p className={styles.percentage}>61%</p>
-          <p className={styles.p}><span>$1,649K /</span> $2,713K</p>
+          <p className={styles.p}>
+            <span>$1,649K /</span> $2,713K
+          </p>
         </div>
-      <div className={styles.bar}>
-        <div></div>
-      </div>
+        <div className={styles.bar}>
+          <div></div>
+        </div>
       </div>
     </section>
   );

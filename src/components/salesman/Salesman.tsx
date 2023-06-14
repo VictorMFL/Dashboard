@@ -1,3 +1,9 @@
+import IconRubber from "../../../public/images/icon_rubber.svg";
+import ImgAlfonso from "../../../public/images/alfonso.png";
+import ImgCalzoni from "../../../public/images/calzoni.png";
+import ImgLuke from "../../../public/images/luke.png";
+import ImgTatiana from "../../../public/images/tatiana.png";
+
 import styles from "./Salesman.module.css";
 
 const Salesman = () => {
@@ -5,23 +11,23 @@ const Salesman = () => {
     <section className={styles.container}>
       <div>
         <h1>Salesman Performance</h1>
-        <img src="../../public/images/icon_rubber.svg" alt="icone de uma borracha" />
+        <img src={IconRubber} alt="icone de uma borracha" />
       </div>
       <div className={styles.salesman}>
         <div>
-          <img src="../../public/images/alfonso.png" alt="imagem do Alfonso" />
+          <img src={ImgAlfonso} alt="imagem do Alfonso" />
           <p>Alfonso</p>
         </div>
         <div>
-          <img src="../../public/images/calzoni.png" alt="imagem do Calzoni" />
+          <img src={ImgCalzoni} alt="imagem do Calzoni" />
           <p>Calzoni</p>
         </div>
         <div>
-          <img src="../../public/images/luke.png" alt="imagem do Luke" />
+          <img src={ImgLuke} alt="imagem do Luke" />
           <p>Luke</p>
         </div>
         <div>
-          <img src="../../public/images/tatiana.png" alt="imagem da Tatiana" />
+          <img src={ImgTatiana} alt="imagem da Tatiana" />
           <p>Tatiana</p>
         </div>
       </div>

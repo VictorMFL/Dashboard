@@ -1,3 +1,8 @@
+import IconRice from "../../../../public/images/icon_rice.svg"
+import IconCarrot from "../../../../public/images/icon_carrot.svg"
+import IconCookie from "../../../../public/images/icon_cookie.svg"
+import IconChampagne from "../../../../public/images/icon_champagne.svg"
+
 import styles from "./GraphicAchievement.module.css";
 
 const GraphicAchievement = () => {
@@ -9,7 +14,7 @@ const GraphicAchievement = () => {
       </div>
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="../../public/images/icon_rice.svg" alt="Icone de uma bacia de arroz" />
+          <img src={IconRice} alt="Icone de uma bacia de arroz" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -26,7 +31,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="../../public/images/icon_carrot.svg" alt="Icone de uma cenoura" />
+          <img src={IconCarrot} alt="Icone de uma cenoura" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -43,7 +48,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="../../public/images/icon_cookie.svg" alt="Icone de um biscoito" />
+          <img src={IconCookie} alt="Icone de um biscoito" />
         </div>
         <div>
           <div className={styles.container_name}>
@@ -60,7 +65,7 @@ const GraphicAchievement = () => {
 
       <div className={styles.container_graphic}>
         <div className={styles.container_icon}>
-          <img src="../../public/images/icon_champagne.svg" alt="Icone de uma Taça de vinho" />
+          <img src={IconChampagne} alt="Icone de uma Taça de vinho" />
         </div>
         <div>
           <div className={styles.container_name}>

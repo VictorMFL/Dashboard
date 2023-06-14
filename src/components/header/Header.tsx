@@ -1,9 +1,14 @@
+import Logo from "../../../public/images/logo.svg"
+import IconSearch from "../../../public/images/icon-search.svg"
+import BmcLogo from "../../../public/images/bmc-logo.svg"
+import ImgCat from "../../../public/images/cat.svg"
+
 import styles from "./Header.module.css";
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="../../public/images/logo.svg" alt="Logo da Onion Sales" className={styles.logo} />
+      <img src={Logo} alt="Logo da Onion Sales" className={styles.logo} />
       <div>
         <p className={styles.welcome}>Welcome</p>
         <p className={styles.name}>Alex Homes</p>
@@ -11,7 +16,7 @@ const Header = () => {
 
       <div className={styles.container_input}>
         <input type="text" className={styles.input} />
-        <img src="../../public/images/icon-search.svg" alt="icone de pesquisa" className={styles.icon_search} />
+        <img src={IconSearch} alt="icone de pesquisa" className={styles.icon_search} />
       </div>
 
       <div>
@@ -36,9 +41,9 @@ const Header = () => {
         </select>
       </div>
       <div className={styles.container_images}>
-        <img src="../../public/images/bmc-logo.svg" alt="logo bmc" />
+        <img src={BmcLogo} alt="logo bmc" />
         <img
-          src="../../public/images/cat.svg"
+          src={ImgCat}
           alt="Imagem de um gato com um óculos de realidade virtual"
         />
       </div>

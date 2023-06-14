@@ -1,0 +1,122 @@
+.container {
+  grid-column: span 2;
+  background: #1a1c22;
+  border-radius: 20px;
+  padding: 1rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.container > h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.graphic {
+  display: grid;
+  grid-template-columns: 28ch auto auto;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #282C35;
+}
+
+.graphic:nth-last-child(1),
+.graphic:nth-child(2) {
+  border: none;
+}
+
+.graphic p {
+  font-size: 16px;
+}
+
+.graphic > div {
+  width: 100%;
+  text-align: right;
+}
+
+.title {
+  color: #9e9e9e;
+  font-size: 16px;
+}
+
+.contrast {
+  position: relative;
+}
+
+.contrast p {
+  position: relative;
+  z-index: 1000;
+}
+
+.contrast_1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 37%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+
+.contrast_6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 19%;
+  height: 100%;
+  background-color: #ff7100;
+}
+
+.contrast_8 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #ff7100;
+}
